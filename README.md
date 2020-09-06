@@ -3,6 +3,9 @@ Software synthesizer with crude midifile player (in golang)
 
 Only understands Key Down and Key Up events in Midi.  Use -tempo to fix the tempo.
 
+There are many midi files that this does not understand, or only plays a few random notes.
+But some simple files sound pretty good.
+
 For help with flags:
 
     go run main.go -help
